@@ -1,0 +1,43 @@
+# Secrets / env
+config.py
+buyurtmalar.json
+.env
+.env.*
+!.env.example
+
+# Telethon userbot sessions
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local DB / media
+*.sqlite
+*.sqlite3
+*.db
+media/
+uploads/
+.config
+.config/
+
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Playwright MCP (vaqtinchalik kadrlar)
+.playwright-mcp/
+buyurtmalar/
+.buyurtmalar
